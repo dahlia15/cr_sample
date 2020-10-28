@@ -1,0 +1,121 @@
+p {
+    line-height: 2.0;
+    font-family: 'Source Sans Pro'
+}
+
+h4, h5 {
+  font-family: 'Libre Baskerville';
+}
+
+h5 {
+  text-align: center;
+  background-color:	#48bae8;
+  height: 40px;
+  padding-top: 12px;
+  color: white;
+}
+
+.navbar-nav {
+    margin-top: 40px;
+    float: right;
+    font-family: 'Source Sans Pro'
+}
+
+.navbar-brand {
+    float: left;
+    position: relative;
+}
+
+.navbar-toggle {
+    margin-top: 35px;
+}
+
+.custom-toggle.navbar-toggle {
+    border-color: #c03a4b;
+    border-width: 2px;
+}
+
+.custom-toggle .icon-bar {
+    background-image: url( 
+        "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(192, 58, 75, 1)' stroke-width='5' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
+        
+}
+
+.nav-item {
+    padding-left: 20px;
+    font-size: 15px;
+    color:  #c03a4b;
+}
+
+.hero-image {
+  position: relative;
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+}
+
+.hero-image img {
+    width: 100%;
+    vertical-align: top;
+}
+
+.hero-image:after {
+    content: '\A';
+    position: absolute;
+    width: 100%; height:100%;
+    top:0; left:0;
+    background:rgba(0,0,0,0.6);
+    opacity: 1;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+}
+
+.header {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    font-family: 'Libre Baskerville';
+    z-index: 1;
+}
+
+.image {
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+    padding-bottom: 20px
+  }
+  
+.intro-text {
+   padding: 20px 0px;
+   text-align: center;
+}
+
+.header {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  font-family: 'Libre Baskerville';
+  z-index: 1;
+}
+
+.shopping {
+  background-color:	#48bae8;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  height: 50px;
+  font-weight: bolder;
+  font-family: 'Source Sans Pro'
+}
+
+footer {
+    background-color: #c03a4b;
+    color: white;
+    height: 40px;
+    padding-top: 10px;
+    text-align: center;
+}
