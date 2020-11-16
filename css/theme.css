@@ -115,6 +115,10 @@ h5 {
   p {
     font-size: 14px;
   }
+  .navbar-brand {
+    float: right;
+    margin-right: 15%;
+  }
   .header {
     font-size: 35px;
   }
