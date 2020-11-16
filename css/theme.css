@@ -127,6 +127,9 @@ h5 {
     display: block;
     line-height: 1.5;
   }
+  .button {
+    margin-bottom: 20px;
+  }
 }
 
 @media only screen and (min-width: 700px) {
